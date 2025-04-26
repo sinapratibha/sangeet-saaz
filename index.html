@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sangeet Saaz</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+
+
+
+</head>
+
+
+
+
+<body>
+  <header>
+    <h1>Sangeet Saaz</h1>
+    <p>Explore the beauty of Indian Classical Music</p>
+  </header>
+
+  <nav>
+    <a href="#shabd">Shabd Alankar</a>
+    <a href="#arth">Arth Alankar</a>
+  </nav>
+
+  <!-- 🔍 Search Bar -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search Alankar..." />
+    <button type="button">Search</button>
+  </div>
+
+
+
+
+
+  <nav>
+
+    <a href="#Home">Home</a>
+    <a href="#alankar">Alankar</a>
+    <a href="#raag">Raag </a>
+    <a href="#theory">Theory</a>
+    <a href="#practice">Practice</a>
+    <a href="#"> </a>
+  </nav>
+
+  <!-- Alankar Section -->
+  <section id="alankar">
+    <h2>Alankar</h2>
+    <p>Click on an Alankar to see practice exercises:</p>
+    <div class="alankar-item" onclick="toggleExercise('alankar1')">Alankar 1: Sa Re Ga Ma</div>
+    <div id="alankar1" class="exercise">
+      <p><strong>Exercise:</strong> Aaroh (Ascending): Sa Re Ga Ma Pa Dha Ni Sa'​
+
+        Avaroh (Descending): Sa' Ni Dha Pa Ma Ga Re Sa​</p>
+    </div>
+
+
+    <div class="alankar-item" onclick="toggleExercise('alankar1')">Alankar 2: Sa Re Ga Ma</div>
+    <div id="alankar1" class="exercise">
+      <p><strong>Exercise:</strong> Sa Re Ga Ma, Re Ga Ma Pa, Ga Ma Pa Dha, Ma Pa Dha Ni, Pa Dha Ni Sa'</p>
+    </div>
+
+
+
+
+    <div class="alankar-item" onclick="toggleExercise('alankar2')">Alankar 3: Sa Ga Re Ma</div>
+    <div id="alankar2" class="exercise">
+      <p><strong>Exercise:</strong> Sa Ga Re Ma, Ga Re Ma Pa, Re Ma Pa Dha, Ma Pa Dha Sa'</p>
+    </div>
+
+    <div class="alankar-item" onclick="toggleExercise('alankar3')">Alankar 4: Sa Ma Re Ga</div>
+    <div id="alankar3" class="exercise">
+      <p><strong>Exercise:</strong> Sa Ma Re Ga, Ma Re Ga Pa, Re Ga Pa Dha, Ga Pa Dha Sa'</p>
+    </div>
+  </section>
+  <div id="alankar3" class="exercise">
+    <p><strong>Exercise:</strong> Sa Ma Re Ga, Ma Re Ga Pa, Re Ga Pa Dha, Ga Pa Dha Sa'</p>
+  </div>
+
+
+  </section>
+
+
+  <!-- Raag Section -->
+  <section id="raag">
+    <h2>Raag</h2>
+    <p>Click on a Raag to view its details:</p>
+    <div class="alankar-item" onclick="toggleRaag('bhairav')">Raag Bhairav</div>
+    <div id="bhairav" class="exercise">
+      <p><strong>Swar:</strong></p>
+      <ul>
+        <li><strong>Aaroh:</strong> Sa Re (Komal) Ga Ma Pa Dha (Komal) Ni Sa'</li>
+        <li><strong>Avaroh:</strong> Sa' Ni (Komal) Dha Pa Ma Ga Re (Komal) Sa</li>
+      </ul>
+      <p><strong>Pakad:</strong> Sa Re (Komal) Ga Ma, Dha (Komal) Ni Sa'</p>
+      <p><strong>Thaat:</strong> Bhairav</p>
+      <p><strong>Jati:</strong> Sampurna–Sampurna</p>
+      <p><strong>Time:</strong> Early morning (1st prahar – dawn)</p>
+    </div>
+
+    <div class="alankar-item" onclick="toggleRaag('bhoopali')">Raag Bhoopali</div>
+    <div id="bhoopali" class="exercise">
+      <p><strong>Swar:</strong></p>
+      <ul>
+        <li><strong>Aaroh:</strong> Sa Re Ga Pa Dha Sa'</li>
+        <li><strong>Avaroh:</strong> Sa' Dha Pa Ga Re Sa</li>
+      </ul>
+      <p><strong>Pakad:</strong> Sa Re Ga, Pa Dha Sa'</p>
+      <p><strong>Thaat:</strong> Kalyan</p>
+      <p><strong>Jati:</strong> Audav–Audav</p>
+      <p><strong>Time:</strong> Evening (7 PM – 9 PM)</p>
+    </div>
+    </div>
+
+    <div class="alankar-item" onclick="toggleRaag('yaman')">Raag Yaman</div>
+    <div id="yaman" class="exercise">
+      <p><strong>Swar:</strong></p>
+      <ul>
+        <li><strong>Aaroh:</strong> Ni (Teevra) Re Ga Ma (Teevra) Dha Ni Sa'</li>
+        <li><strong>Avaroh:</strong> Sa' Ni Dha Pa Ma (Teevra) Ga Re Sa</li>
+      </ul>
+
+      <p><strong>Pakad:</strong> Ni Re Ga Ma, Dha Ni Sa'</p>
+      <p><strong>Thaat:</strong> Kalyan</p>
+      <p><strong>Jati:</strong> Sampurna Sampurna</p>
+      <p><strong>Time:</strong> Night (9 PM midnight)</p>
+    </div>
+
+
+    <div class="alankar-item" onclick="toggleRaag('tilak-kamod')">Raag Tilak Kamod</div>
+    <div id="tilak-kamod" class="exercise">
+      <p><strong>Swar:</strong></p>
+      <ul>
+        <li><strong>Aaroh:</strong> S R G P N S'</li>
+        <li><strong>Avaroh:</strong> S' N D P M G R S</li>
+      </ul>
+      <p><strong>Pakad:</strong> G P N S' N D P, G R S</p>
+      <p><strong>Thaat:</strong> Khamaj</p>
+      <p><strong>Jati:</strong> Audav–Shadav</p>
+      <p><strong>Time:</strong> Second prahar of the night (9 PM – 12 AM)</p>
+    </div>
+
+
+  </section>
+
+  <!-- Theory Section -->
+  <section id="theory">
+    <h2>Theory</h2>
+    <p class="alankar-item" onclick="toggleTheory()">Click to learn about Indian classical music theory</p>
+    <div id="theoryContent" class="exercise">
+      <h3>🎵 Indian Classical Music Theory</h3>
+      <ul>
+        <li><strong>Swar (Notes):</strong> Sa, Re, Ga, Ma, Pa, Dha, Ni</li>
+        <li><strong>Types of Swar:</strong> Komal (flat), Teevra (sharp), Shuddh (natural)</li>
+        <li><strong>Saptak:</strong> Mandra (low), Madhya (middle), Taar (high)</li>
+        <li><strong>Raag:</strong> A melodic structure with rules, used for expression</li>
+        <li><strong>Thaat:</strong> Parent scale that classifies raags (10 main Thaats)</li>
+        <li><strong>Taal:</strong> Rhythm patterns like Teentaal (16), Jhaptaal (10)</li>
+        <li><strong>Alankar:</strong> Pattern exercises to improve control and pitch</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Practice Section -->
+  <section id="practice">
+    <h2>Practice</h2>
+    <p>Click on a time of day to view your practice routine:</p>
+
+    <!-- Morning Routine -->
+    <div class="alankar-item" onclick="togglePractice('morningRoutine')">Morning Routine</div>
+    <div id="morningRoutine" class="exercise">
+      <p><strong>Morning Routine (6 AM - 9 AM):</strong></p>
+      <ul>
+        <li><strong>Warm-up:</strong> 15 minutes of simple alankars (Sa Re Ga Ma).</li>
+        <li><strong>Raag Practice:</strong> 30 minutes of Raag Yaman (focus on Aaroh-Avaroh).</li>
+        <li><strong>Vocalization:</strong> 10 minutes of sa re ga ma with a drone.</li>
+        <li><strong>Breathing Exercises:</strong> 10 minutes of pranayama (deep breathing).</li>
+      </ul>
+    </div>
+
+    <!-- Afternoon Routine -->
+    <div class="alankar-item" onclick="togglePractice('afternoonRoutine')">Afternoon Routine</div>
+    <div id="afternoonRoutine" class="exercise">
+      <p><strong>Afternoon Routine (12 PM - 3 PM):</strong></p>
+      <ul>
+        <li><strong>Vocal Exercises:</strong> 20 minutes of humming exercises for voice control.</li>
+        <li><strong>Raag Practice:</strong> 30 minutes of Raag Bhairav, focusing on emotional expression.</li>
+        <li><strong>Alankar:</strong> 15 minutes of alankars, adding variations for practice.</li>
+        <li><strong>Rhythm Practice:</strong> 10 minutes of taal practice using Teentaal.</li>
+      </ul>
+    </div>
+
+    <!-- Evening Routine -->
+    <div class="alankar-item" onclick="togglePractice('eveningRoutine')">Evening Routine</div>
+    <div id="eveningRoutine" class="exercise">
+      <p><strong>Evening Routine (6 PM - 9 PM):</strong></p>
+      <ul>
+        <li><strong>Warm-up:</strong> 15 minutes of sa re ga ma (slow tempo).</li>
+        <li><strong>Raag Practice:</strong> 45 minutes of Raag Bhoopali or Raag Marwa (focus on improvisation).</li>
+        <li><strong>Alankar:</strong> 15 minutes of alankars with different pitches and rhythms.</li>
+        <li><strong>Performance Practice:</strong> 15 minutes of practice with instrumental accompaniment.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section class="instruments">
+    <div class="content-right">
+      <h2>Musical Instruments</h2>
+      <ul class="instrument-list">
+        <li>Sitar</li>
+        <li>Tabla</li>
+        <li>Veena</li>
+        <li>Flute (Bansuri)</li>
+        <li>Harmonium</li>
+        <li>Mridangam</li>
+        <li>Tanpura</li>
+      </ul>
+    </div>
+  
+    <!-- Add Image Here -->
+    <div class="image-container">
+      <img src="images/sitar.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/tabal.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/veena.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/basuri.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/Harmonium.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/Mridangam.jpeg" alt="Sitar Instrument" class="instrument-image">
+      <img src="images/Tanpura.jpeg" alt="Sitar Instrument" class="instrument-image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Classical Music Learning | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function toggleExercise(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function toggleRaag(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function toggleTheory() {
+      const el = document.getElementById("theoryContent");
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function togglePractice(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+
+
+  </div>
